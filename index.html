@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Driver Monitoring System</title>
+		<meta name="description" content="Driver Management System making lives more secure" />
+        <meta name="author" content="Sachin Kumar" />
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/black.css">
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+	</head>
+	<style>
+		:root {
+			--progress: 0%;
+		}
+
+		.two-columns {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-evenly;
+		}
+
+		.reveal pre > code {
+			max-height: 300px;
+		}
+
+		.two-columns > * {
+			flex: 1;
+		}
+		.reveal .title-small {
+			font-size: 25px;
+		}
+
+		.contact {
+			display: flex;
+			flex-direction: row;
+			gap: 30px;
+			margin: 40px 0px;
+		}
+
+		.contact-info {
+			display: flex;
+			flex-direction: column;
+			align-items: flex-start;
+		}
+
+		.service {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			flex: 1 1 30%;
+		}
+
+		.service img {
+			height: 80px;
+			width: 80px;
+		}
+		.service h3 {
+			font-size: 20px;
+		}
+
+		.heading-with-image {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			gap: 10px;
+		}
+		.footnotes {
+		display: none;
+		}
+
+		.footnote-ref {
+		font-size: 0.8em;
+		vertical-align: super;
+		}
+
+		.footnote-ref:hover {
+		color: #0056b3;
+		text-decoration: underline;
+		}
+
+
+		.distraction-block {
+			background-color: red;
+			color: white; /* Set text color to white or another contrasting color */
+		}
+
+		/* Style for the drowsiness block */
+		.drowsiness-block {
+			background-color: red;
+			color: white; /* Set text color to white or another contrasting color */
+		}
+
+		/* Style for another distraction block */
+		.another-distraction-block {
+			background-color: red;
+			color: white; /* Set text color to white or another contrasting color */
+		}
+	</style>
+	<body>
+		<div class="reveal">
+			<div class="slides" data-background-color="aquamarine">
+				<!-- <section data-markdown>
+					<textarea data-template>
+						## Slide 1
+						A paragraph with some text and a [link](https://hakim.se).
+						---
+						## Slide 2
+						---
+						## Slide 3
+					</textarea>
+				</section> -->
+				<section data-background-color="aquamarine">
+					<h3 *style="color:green"*>
+                        Driver Management System<br/>
+                    </h3>
+                    <p>A System used to Monitor Driver to Prevent Accidents ☠️</p>
+				</section>
+				<section data-background-color="aquamarine">
+					<!-- <img src="media/profile_sachinkum0009.jpeg" height="200" width="200" /> -->
+					<h3>About Me</h3>
+					<p>Hello👋, I'm Sachin. <br/>Masters Embedded System Engineering.</p>
+					<ul>
+						<li class="fragment fade-up">GitHub: <a href="https://github.com/sachinkum0009">sachinkum0009</a></li>
+						<li class="fragment fade-up">Website: <a href="https://sachinkum0009.github.io/">Blog</a></li>
+					</ul>
+				</section>
+				<section data-background-color="aquamarine">
+					<h3>Agenda</h3>
+                    <ol>
+                        <li class="fragment fade-up">What is DMS?</li>
+                        <li class="fragment fade-up">Motivation behind DMS</li>
+                        <li class="fragment fade-up">Technical Details</li>
+                        <li class="fragment fade-up">Commercial Applications</li>
+                    </ol>
+				</section>
+
+				<section data-background-color="aquamarine">
+					<section>
+						<h3>What is DMS?</h3>
+					</section>
+					<section>
+						<h3>Driver Monitoring System</h3>
+						<ol>
+							<li class="fragment fade-up">Driver Attention Monitoring</li>
+							<li class="fragment fade-up">Driver Drowsiness Detection</li>
+							<li class="fragment fade-up">Alert Warning</li>
+							<li class="fragment fade-up">Driver Identification</li>
+						</ol>
+					</section>
+				</section>
+
+
+
+
+
+
+				<section data-background-color="aquamarine">
+					<section>
+						<h3>Motivation behind DMS</h3>
+						<ol>
+							<li class="fragment fade-up">Driver Distraction</li>
+						</ol>
+
+						<img class="fragment fade-up" src="media/distraction.gif"></img>
+					</section>
+					<section>
+						<p>NHTSA estimates that approximately 25% of police-reported crashes involve some form of driver inattention</p>
+					</section>
+				</section>
+				<section data-background-color="aquamarine">
+					<section>
+						<h3>Technical Details</h3>
+						<ol>
+							<li class="fragment fade-up">Sensor Selection</li>
+							<li class="fragment fade-up">Data Collection</li>
+							<li class="fragment fade-up">Pre-processing & Feature Extraction</li>
+							<li class="fragment fade-up">Deep Learning Model</li>
+							<li class="fragment fade-up">Real-time Analysis</li>
+							<li class="fragment fade-up">Alerts and Warnings</li>
+							<li class="fragment fade-up">Integration with ADAS/AD</li>
+							<li class="fragment fade-up">Validation and Testing</li>
+							<li class="fragment fade-up">Continuous Improvement</li>
+						</ol>
+					</section>
+					<section>
+						<h3>Distraction Detection System</h3>
+						<img class="fragment fade-up" src="media/distraction.png" />
+					</section>
+					<section>
+						<h3>Drowsiness Detection System</h3>
+						<img class="fragment fade-up" src="media/drowsiness.png" height="600" width="600" />
+					</section>
+					<section>
+						<h3>Drowsiness Detection using Deep Learning</h3>
+						<p class="fragment fade-up">CNN is used for alert generation, image classification, feature extraction and detection</p>
+						<img class="fragment fade-up" src="media/cnn_active.png" height="300" width="300" />
+						<img class="fragment fade-up" src="media/cnn_drowsiness.png" height="300" width="300" />
+					</section>
+					
+				</section>
+				<section data-background-color="aquamarine">
+					<section>
+						<h3>Commercial Applications</h3>
+						<ol>
+						<li class="fragment fade-up">Saab's Driver Attention Warning System</li>
+						<li class="fragment fade-up">Toyota - Driver Monitoring System</li>
+						<li class="fragment fade-up">Smart Eye AB - Driver Monitoring System</li>
+						</ol>
+					</section>
+					<section>
+						<h3>Saab's Driver Attention Warning System</h3>
+						<img class="fragment fade-up" src="media/saabnet.png" height="300" width="300"  />
+					</section>
+					<section>
+						<h3>Toyota - Driver Monitoring System</h3>
+						<img class="fragment fade-up" src="media/toyata_dms_1.png" height="300" width="300"  />
+						<img class="fragment fade-up" src="media/toyata_dms_2.png" height="300" width="300"  />
+						<img class="fragment fade-up" src="media/toyata_dms_3.png" height="300" width="300"  />
+					</section>
+					<section>
+						<h3>Smart Eye AB - Driver Monitoring System</h3>
+						<img class="fragment fade-up" src="media/smart_eye_ab.png" height="500" width="500"  />
+					</section>
+				</section>
+				<section data-background-color="https://static.fandomspot.com/images/11/9898/00-featured-vash-the-stampede-trigun-anime-preview.jpg">
+					<h3>Any Questions</h3>
+					<h4>?</h4>
+				</section>
+				<section data-background-color="aquamarine">
+					<h3>Thank you ❤️</h3>
+					<img src="media/ChatGPT_logo.svg.png" height="50" width="50" />
+				</section>
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+
+		<!-- Chart plugin -->
+		<script src="https://cdn.jsdelivr.net/npm/reveal.js-plugins@latest/chart/plugin.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.2.0/chart.min.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+				chart: {
+					defaults: {
+						color: 'lightgray', // color of labels
+						scale: {
+							beginAtZero: true,
+							ticks: { stepSize: 1 },
+							grid: { color: "lightgray" } , // color of grid lines
+						},
+					},
+					line: { borderColor: [ "rgba(20,220,220,.8)" , "rgba(220,120,120,.8)", "rgba(20,120,220,.8)" ], "borderDash": [ [5,10], [0,0] ] },
+					bar: { backgroundColor: [ "rgba(20,220,220,.8)" , "rgba(220,120,120,.8)", "rgba(20,120,220,.8)" ]},
+					pie: { backgroundColor: [ ["rgba(0,0,0,.8)" , "rgba(220,20,20,.8)", "rgba(20,220,20,.8)", "rgba(220,220,20,.8)", "rgba(20,20,220,.8)"] ]},
+				},
+				
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealChart ]
+			});
+			Reveal.addEventListener('slidechanged', function (event) {
+			var currentSlide = event.currentSlide;
+
+			// Hide all footnotes
+			document.querySelector('.footnotes').style.display = 'none';
+
+			// Show footnotes for the current slide
+			var footnotes = currentSlide.parentElement.querySelector('.footnotes');
+			if (footnotes) {
+			footnotes.style.display = 'block';
+			}
+		});
+		</script>
+	</body>
+</html>
